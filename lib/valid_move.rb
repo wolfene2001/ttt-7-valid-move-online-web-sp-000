@@ -3,8 +3,8 @@ def valid_move(board, index)
   if (index).between?(0,8) == true
 &&  position_taken(board, index) == false
     return true
-elsif (index).between?(0,8) == false
-  return false
+#elsif (index).between?(0,8) == false
+#  return false
  end
 end
 
